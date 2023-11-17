@@ -109,8 +109,8 @@ const Dashboard = () => {
                                     ICE 1212 BY AMAR, RUM, AI (233)
                                 </button>
                             </th>
-
                         </tr>
+
                         {/* row 3 */}
                         <tr>
                             <th>
@@ -168,8 +168,80 @@ const Dashboard = () => {
                                 <button className="btn btn-ghost btn-block">
                                 </button>
                             </th>
-
                         </tr>
+
+                        {/* row 5*/}
+                        <tr>
+                            <th>
+                                4th Year Odd (2022)
+                            </th>
+                            <th>
+                                <button className="btn btn-ghost btn-block">
+                                    ICE 4111 DD/GR (439)
+                                </button>
+                            </th>
+                            <th>
+                                <button className="btn btn-ghost btn-block">
+                                    ICE 4131 AMAR/MRH (439)
+                                </button>
+                            </th>
+                            <th>
+                                <button className="btn btn-ghost btn-block">
+                                    ICE 4121 FA-1/LN (439)
+                                </button>
+                            </th>
+                            <th>
+                                <button className="btn btn-ghost btn-block">
+                                </button>
+                            </th>
+                            <th colSpan="3">
+                                <button className="btn btn-ghost btn-block">
+                                    ICE 4172 FA-1, HK, LN (228)
+                                </button>
+                            </th>
+                        </tr>
+
+
+                        {/* row 6 */}
+                        <tr>
+                            <th>
+                                MSc/M 1st Sem (2020)
+                            </th>
+
+                            <th>
+                                <button className="btn btn-ghost btn-block">
+                                    ICE M1111/ICE M10111 EH/SR (438)
+                                </button>
+                            </th>
+                            <th>
+                                <button className="btn btn-ghost btn-block">
+                                    ICE M1121/ICE M1021 RUM/FZ (438)
+                                </button>
+                            </th>
+                            <th>
+                                <button className="btn btn-ghost btn-block">
+                                    ICE M1131/ICE M1031 RH/HH (438)
+                                </button>
+                            </th>
+                            <th>
+                                <button className="btn btn-ghost btn-block">
+                                </button>
+                            </th>
+                        </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                         {/* row 1 */}
                         {/* <tr>
