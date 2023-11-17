@@ -1,0 +1,457 @@
+[
+  {
+    "name": "Sun",
+    "batches": [
+      {
+        "name": "1st Year Odd (2023)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectA",
+          "10:05 - 11:00": "SubjectB",
+          "11:05 - 12:00": "SubjectC",
+          "12:05 - 01:00": "SubjectD",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectF",
+          "03:05 - 04:00": "SubjectG"
+        }
+      },
+      {
+        "name": "1st Year Even (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectH",
+          "10:05 - 11:00": "SubjectI",
+          "11:05 - 12:00": "SubjectJ",
+          "12:05 - 01:00": "SubjectK",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectM",
+          "03:05 - 04:00": "SubjectN"
+        }
+      },
+      {
+        "name": "2nd Year Even (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectO",
+          "10:05 - 11:00": "SubjectP",
+          "11:05 - 12:00": "SubjectQ",
+          "12:05 - 01:00": "SubjectR",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectT",
+          "03:05 - 04:00": "SubjectU"
+        }
+      },
+      {
+        "name": "3rd Year Odd (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectV",
+          "10:05 - 11:00": "SubjectW",
+          "11:05 - 12:00": "SubjectX",
+          "12:05 - 01:00": "SubjectY",
+          "01:05 - 02:00": ""
+        }
+      },
+      {
+        "name": "4th Year Odd (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAA",
+          "10:05 - 11:00": "SubjectAB",
+          "11:05 - 12:00": "SubjectAC",
+          "12:05 - 01:00": "SubjectAD",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectAF",
+          "03:05 - 04:00": "SubjectAG"
+        }
+      },
+      {
+        "name": "MSc/M 1st Sem (2020)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAH",
+          "10:05 - 11:00": "SubjectAI",
+          "11:05 - 12:00": "SubjectAJ",
+          "12:05 - 01:00": "SubjectAK"
+        }
+      },
+      {
+        "name": "MSc/M 2nd Sem (2020)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAL",
+          "10:05 - 11:00": "SubjectAM",
+          "11:05 - 12:00": "SubjectAN",
+          "12:05 - 01:00": "SubjectAO"
+        }
+      },
+      {
+        "name": "MSc/M 3rd Sem (2020)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAP",
+          "10:05 - 11:00": "SubjectAQ",
+          "11:05 - 12:00": "SubjectAR",
+          "12:05 - 01:00": "SubjectAS",
+          "01:05 - 02:00": ""
+        }
+      }
+    ]
+  },
+  {
+    "name": "Mon",
+    "batches": [
+      {
+        "name": "1st Year Odd (2023)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectA",
+          "10:05 - 11:00": "SubjectB",
+          "11:05 - 12:00": "SubjectC",
+          "12:05 - 01:00": "SubjectD",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectF",
+          "03:05 - 04:00": "SubjectG"
+        }
+      },
+      {
+        "name": "1st Year Even (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectH",
+          "10:05 - 11:00": "SubjectI",
+          "11:05 - 12:00": "SubjectJ",
+          "12:05 - 01:00": "SubjectK",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectM",
+          "03:05 - 04:00": "SubjectN"
+        }
+      },
+      {
+        "name": "2nd Year Even (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectO",
+          "10:05 - 11:00": "SubjectP",
+          "11:05 - 12:00": "SubjectQ",
+          "12:05 - 01:00": "SubjectR",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectT",
+          "03:05 - 04:00": "SubjectU"
+        }
+      },
+      {
+        "name": "3rd Year Odd (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectV",
+          "10:05 - 11:00": "SubjectW",
+          "11:05 - 12:00": "SubjectX",
+          "12:05 - 01:00": "SubjectY",
+          "01:05 - 02:00": ""
+        }
+      },
+      {
+        "name": "4th Year Odd (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAA",
+          "10:05 - 11:00": "SubjectAB",
+          "11:05 - 12:00": "SubjectAC",
+          "12:05 - 01:00": "SubjectAD",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectAF",
+          "03:05 - 04:00": "SubjectAG"
+        }
+      },
+      {
+        "name": "MSc/M 1st Sem (2020)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAH",
+          "10:05 - 11:00": "SubjectAI",
+          "11:05 - 12:00": "SubjectAJ",
+          "12:05 - 01:00": "SubjectAK"
+        }
+      },
+      {
+        "name": "MSc/M 2nd Sem (2020)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAL",
+          "10:05 - 11:00": "SubjectAM",
+          "11:05 - 12:00": "SubjectAN",
+          "12:05 - 01:00": "SubjectAO"
+        }
+      },
+      {
+        "name": "MSc/M 3rd Sem (2020)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAP",
+          "10:05 - 11:00": "SubjectAQ",
+          "11:05 - 12:00": "SubjectAR",
+          "12:05 - 01:00": "SubjectAS",
+          "01:05 - 02:00": ""
+        }
+      }
+    ]
+  },
+  {
+    "name": "Tue",
+    "batches": [
+      {
+        "name": "1st Year Odd (2023)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectA",
+          "10:05 - 11:00": "SubjectB",
+          "11:05 - 12:00": "SubjectC",
+          "12:05 - 01:00": "SubjectD",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectF",
+          "03:05 - 04:00": "SubjectG"
+        }
+      },
+      {
+        "name": "1st Year Even (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectH",
+          "10:05 - 11:00": "SubjectI",
+          "11:05 - 12:00": "SubjectJ",
+          "12:05 - 01:00": "SubjectK",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectM",
+          "03:05 - 04:00": "SubjectN"
+        }
+      },
+      {
+        "name": "2nd Year Even (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectO",
+          "10:05 - 11:00": "SubjectP",
+          "11:05 - 12:00": "SubjectQ",
+          "12:05 - 01:00": "SubjectR",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectT",
+          "03:05 - 04:00": "SubjectU"
+        }
+      },
+      {
+        "name": "3rd Year Odd (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectV",
+          "10:05 - 11:00": "SubjectW",
+          "11:05 - 12:00": "SubjectX",
+          "12:05 - 01:00": "SubjectY",
+          "01:05 - 02:00": ""
+        }
+      },
+      {
+        "name": "4th Year Odd (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAA",
+          "10:05 - 11:00": "SubjectAB",
+          "11:05 - 12:00": "SubjectAC",
+          "12:05 - 01:00": "SubjectAD",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectAF",
+          "03:05 - 04:00": "SubjectAG"
+        }
+      },
+      {
+        "name": "MSc/M 1st Sem (2020)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAH",
+          "10:05 - 11:00": "SubjectAI",
+          "11:05 - 12:00": "SubjectAJ",
+          "12:05 - 01:00": "SubjectAK"
+        }
+      },
+      {
+        "name": "MSc/M 2nd Sem (2020)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAL",
+          "10:05 - 11:00": "SubjectAM",
+          "11:05 - 12:00": "SubjectAN",
+          "12:05 - 01:00": "SubjectAO"
+        }
+      },
+      {
+        "name": "MSc/M 3rd Sem (2020)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAP",
+          "10:05 - 11:00": "SubjectAQ",
+          "11:05 - 12:00": "SubjectAR",
+          "12:05 - 01:00": "SubjectAS",
+          "01:05 - 02:00": ""
+        }
+      }
+    ]
+  },
+  {
+    "name": "Wed",
+    "batches": [
+      {
+        "name": "1st Year Odd (2023)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectA",
+          "10:05 - 11:00": "SubjectB",
+          "11:05 - 12:00": "SubjectC",
+          "12:05 - 01:00": "SubjectD",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectF",
+          "03:05 - 04:00": "SubjectG"
+        }
+      },
+      {
+        "name": "1st Year Even (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectH",
+          "10:05 - 11:00": "SubjectI",
+          "11:05 - 12:00": "SubjectJ",
+          "12:05 - 01:00": "SubjectK",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectM",
+          "03:05 - 04:00": "SubjectN"
+        }
+      },
+      {
+        "name": "2nd Year Even (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectO",
+          "10:05 - 11:00": "SubjectP",
+          "11:05 - 12:00": "SubjectQ",
+          "12:05 - 01:00": "SubjectR",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectT",
+          "03:05 - 04:00": "SubjectU"
+        }
+      },
+      {
+        "name": "3rd Year Odd (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectV",
+          "10:05 - 11:00": "SubjectW",
+          "11:05 - 12:00": "SubjectX",
+          "12:05 - 01:00": "SubjectY",
+          "01:05 - 02:00": ""
+        }
+      },
+      {
+        "name": "4th Year Odd (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAA",
+          "10:05 - 11:00": "SubjectAB",
+          "11:05 - 12:00": "SubjectAC",
+          "12:05 - 01:00": "SubjectAD",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectAF",
+          "03:05 - 04:00": "SubjectAG"
+        }
+      },
+      {
+        "name": "MSc/M 1st Sem (2020)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAH",
+          "10:05 - 11:00": "SubjectAI",
+          "11:05 - 12:00": "SubjectAJ",
+          "12:05 - 01:00": "SubjectAK"
+        }
+      },
+      {
+        "name": "MSc/M 2nd Sem (2020)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAL",
+          "10:05 - 11:00": "SubjectAM",
+          "11:05 - 12:00": "SubjectAN",
+          "12:05 - 01:00": "SubjectAO"
+        }
+      },
+      {
+        "name": "MSc/M 3rd Sem (2020)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAP",
+          "10:05 - 11:00": "SubjectAQ",
+          "11:05 - 12:00": "SubjectAR",
+          "12:05 - 01:00": "SubjectAS",
+          "01:05 - 02:00": ""
+        }
+      }
+    ]
+  },
+  {
+    "name": "Thu",
+    "batches": [
+      {
+        "name": "1st Year Odd (2023)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectA",
+          "10:05 - 11:00": "SubjectB",
+          "11:05 - 12:00": "SubjectC",
+          "12:05 - 01:00": "SubjectD",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectF",
+          "03:05 - 04:00": "SubjectG"
+        }
+      },
+      {
+        "name": "1st Year Even (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectH",
+          "10:05 - 11:00": "SubjectI",
+          "11:05 - 12:00": "SubjectJ",
+          "12:05 - 01:00": "SubjectK",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectM",
+          "03:05 - 04:00": "SubjectN"
+        }
+      },
+      {
+        "name": "2nd Year Even (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectO",
+          "10:05 - 11:00": "SubjectP",
+          "11:05 - 12:00": "SubjectQ",
+          "12:05 - 01:00": "SubjectR",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectT",
+          "03:05 - 04:00": "SubjectU"
+        }
+      },
+      {
+        "name": "3rd Year Odd (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectV",
+          "10:05 - 11:00": "SubjectW",
+          "11:05 - 12:00": "SubjectX",
+          "12:05 - 01:00": "SubjectY",
+          "01:05 - 02:00": ""
+        }
+      },
+      {
+        "name": "4th Year Odd (2022)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAA",
+          "10:05 - 11:00": "SubjectAB",
+          "11:05 - 12:00": "SubjectAC",
+          "12:05 - 01:00": "SubjectAD",
+          "01:05 - 02:00": "",
+          "02:05 - 03:00": "SubjectAF",
+          "03:05 - 04:00": "SubjectAG"
+        }
+      },
+      {
+        "name": "MSc/M 1st Sem (2020)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAH",
+          "10:05 - 11:00": "SubjectAI",
+          "11:05 - 12:00": "SubjectAJ",
+          "12:05 - 01:00": "SubjectAK"
+        }
+      },
+      {
+        "name": "MSc/M 2nd Sem (2020)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAL",
+          "10:05 - 11:00": "SubjectAM",
+          "11:05 - 12:00": "SubjectAN",
+          "12:05 - 01:00": "SubjectAO"
+        }
+      },
+      {
+        "name": "MSc/M 3rd Sem (2020)",
+        "schedule": {
+          "09:05 - 10:00": "SubjectAP",
+          "10:05 - 11:00": "SubjectAQ",
+          "11:05 - 12:00": "SubjectAR",
+          "12:05 - 01:00": "SubjectAS",
+          "01:05 - 02:00": ""
+        }
+      }
+    ]
+  }
+]

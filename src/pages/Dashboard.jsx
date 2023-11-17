@@ -1,18 +1,31 @@
+import { useEffect, useState } from "react";
 
 const Dashboard = () => {
+    const [routine, setRoutine] = useState([])
+    useEffect(() => {
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => setRoutine(data))
+    }, [])
     return (
         <div>
             <div className="overflow-x-auto">
-                <table className="table">
+                <h2 className="text-center text-3xl font-bold my-12">Class Routine</h2>
+                <div className="flex justify-center gap-8 my-12">
+                    <button className="btn btn-neutral">Only Tomorrow</button>
+                    <button className="btn btn-neutral">Only Specific Day</button>
+                    <button className="btn btn-neutral">Only Specific Batch</button>
+                </div>
+                <table className="table table-zebra">
                     {/* head */}
-                    <thead className="text-center">
+                    <thead className="text-center text-xl">
                         <tr>
                             {/* <th>
                                 <label>
                                     <input type="checkbox" className="checkbox" />
                                 </label>
                             </th> */}
-                            <th>Day</th>
+                            {/* <th>Day</th> */}
                             <th>Batch</th>
                             <th>09:05 - 10:00</th>
                             <th>10:05 - 11:00</th>
@@ -23,211 +36,7 @@ const Dashboard = () => {
                             <th>03:05 - 4:00</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <th rowSpan="8">
-                                Sun
-                            </th>
-                            <th>
-                                1st Year Odd (2023)
-                            </th>
-                            {/* 
-                            <th>
-                                1st Year Even (2022)
-                            </th>
-                            <th>
-                                2nd Year Even (2022)
-                            </th>
-                            <th>
-                                3rd Year Odd (2022)
-                            </th>
-                            <th>
-                                4th Year Odd (2022)
-                            </th>
-                            <th>
-                                MSc/M 1st Sem (2020)
-                            </th>
-                            <th>
-                                MSc/M 2nd Sem (2020)
-                            </th>
-                            <th>
-                                MSc/M 3rd Sem (2020)
-                            </th>
-                             */}
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    ICE 1121 RH/HK (403)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    ICE 1111 RY/HH (403)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    ENG 1111 NA (403)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    MATH 1111 MRH (403)
-                                </button>
-                            </th>
-                        </tr>
-
-                        {/* row 2*/}
-                        <tr>
-                            <th>
-                                1st Year Even (2022)
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    ICE 1211 HH/LN (403)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    STAT 1211 FH (403)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    PHY 1221 MRH/AI (403)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                </button>
-                            </th>
-                            <th colSpan="3">
-                                <button className="btn btn-ghost btn-block">
-                                    ICE 1212 BY AMAR, RUM, AI (233)
-                                </button>
-                            </th>
-                        </tr>
-
-                        {/* row 3 */}
-                        <tr>
-                            <th>
-                                2nd Year Even (2022)
-                            </th>
-                            <th colSpan="3">
-                                <button className="btn btn-ghost btn-block">
-                                    ICE 2222 RY RUM, MI (227)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    ICE 2211 (MRH/FZ) (437)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    ICF 2221 RUM/MI (437)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    PHY 1221 MRH/AI (403)
-                                </button>
-                            </th>
-
-                        </tr>
-
-                        {/* row 4 */}
-                        <tr>
-                            <th>
-                                3rd Year Odd (2022)
-                            </th>
-
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    ICE 3111 RUM/FA-2 (440)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    ICE 3131 DD/EH (440)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    ICE 3151 AMAR/RUM (440)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                </button>
-                            </th>
-                        </tr>
-
-                        {/* row 5*/}
-                        <tr>
-                            <th>
-                                4th Year Odd (2022)
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    ICE 4111 DD/GR (439)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    ICE 4131 AMAR/MRH (439)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    ICE 4121 FA-1/LN (439)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                </button>
-                            </th>
-                            <th colSpan="3">
-                                <button className="btn btn-ghost btn-block">
-                                    ICE 4172 FA-1, HK, LN (228)
-                                </button>
-                            </th>
-                        </tr>
-
-
-                        {/* row 6 */}
-                        <tr>
-                            <th>
-                                MSc/M 1st Sem (2020)
-                            </th>
-
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    ICE M1111/ICE M10111 EH/SR (438)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    ICE M1121/ICE M1021 RUM/FZ (438)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                    ICE M1131/ICE M1031 RH/HH (438)
-                                </button>
-                            </th>
-                            <th>
-                                <button className="btn btn-ghost btn-block">
-                                </button>
-                            </th>
-                        </tr>
+                    <tbody className="border-t-2 border-gray-300">
 
 
 
@@ -237,42 +46,67 @@ const Dashboard = () => {
 
 
 
+                        {
+                            routine.map((day) => (
+                                <>
+                                    <tr key={day.id}>
+                                        <th colSpan="9" className="text-center text-3xl py-4 bg-gray-700 text-white">
+                                            {day.name}
+                                        </th>
+                                    </tr>
+                                    {
+                                        day.batches.map((batch, index) => (
+                                            <tr key={index}>
+                                                <th>
+                                                    {batch.name}
+                                                </th>
+                                                <td>
+                                                    <button className="btn btn-ghost btn-block">
+                                                        {batch.schedule["09:05 - 10:00"]}
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button className="btn btn-ghost btn-block">
+                                                        {batch.schedule["10:05 - 11:00"]}
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button className="btn btn-ghost btn-block">
+                                                        {batch.schedule["11:05 - 12:00"]}
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button className="btn btn-ghost btn-block">
+                                                        {batch.schedule["12:05 - 01:00"]}
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button className="btn btn-ghost btn-block">
+                                                        {batch.schedule["01:05 - 02:00"]}
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button className="btn btn-ghost btn-block">
+                                                        {batch.schedule["02:05 - 03:00"]}
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <button className="btn btn-ghost btn-block">
+                                                        {batch.schedule["03:05 - 04:00"]}
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        ))
+                                    }
+                                </>
+                            ))
+                        }
 
 
 
 
 
 
-                        {/* row 1 */}
-                        {/* <tr>
-                            <th>
-                                <label>
-                                    <input type="checkbox" className="checkbox" />
-                                </label>
-                            </th>
-                            <td>
-                                <div className="flex items-center gap-3">
-                                    <div className="avatar">
-                                        <div className="mask mask-squircle w-12 h-12">
-                                            <img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className="font-bold">Hart Hagerty</div>
-                                        <div className="text-sm opacity-50">United States</div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                Zemlak, Daniel and Leannon
-                                <br />
-                                <span className="badge badge-ghost badge-sm">Desktop Support Technician</span>
-                            </td>
-                            <td>Purple</td>
-                            <th>
-                                <button className="btn btn-ghost btn-block btn-xs">details</button>
-                            </th>
-                        </tr> */}
                     </tbody>
 
                 </table>
