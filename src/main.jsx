@@ -8,6 +8,7 @@ import "./index.css";
 import Root from "./Root";
 import Home from "./pages/Home";
 import ErrorPage from "./pages/ErrorPage";
+import Dashboard from "./pages/Dashboard";
 
 const router = createBrowserRouter([
   {
@@ -26,7 +27,11 @@ const router = createBrowserRouter([
       // {
       //   path: "/contact",
       //   element: <Contact></Contact>,
-      // }
+      // },
+      {
+        path: "/dashboard",
+        element: <Dashboard></Dashboard>,
+      },
     ]
   },
 ]);
