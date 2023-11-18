@@ -9,6 +9,7 @@ import Root from "./Root";
 import Home from "./pages/Home";
 import ErrorPage from "./pages/ErrorPage";
 import Dashboard from "./pages/Dashboard";
+import Login from "./auth/Login";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
         path: "/dashboard",
         element: <Dashboard></Dashboard>,
       },
+      {
+        path: "/login",
+        element: <Login></Login>,
+      }
     ]
   },
 ]);
