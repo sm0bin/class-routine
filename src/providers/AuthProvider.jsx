@@ -28,13 +28,13 @@ const AuthProvider = ({ children }) => {
         return signInWithPopup(auth, googleProvider);
     }
 
-    const updateUser = (name, photoURL) => {
-        setLoading(true);
-        return updateProfile(auth.currentUser, {
-            displayName: name,
-            photoURL: photoURL
-        });
-    }
+    // const updateUser = (name, photoURL) => {
+    //     setLoading(true);
+    //     return updateProfile(auth.currentUser, {
+    //         displayName: name,
+    //         photoURL: photoURL
+    //     });
+    // }
 
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
@@ -51,7 +51,7 @@ const AuthProvider = ({ children }) => {
         logout,
         googleSignIn,
         loading,
-        updateUser,
+        // updateUser,
     };
 
     return (

@@ -3,19 +3,20 @@ import { AuthContext } from "../providers/AuthProvider";
 import { useContext } from "react";
 import { toast } from "react-hot-toast";
 
-const Login = () => {
-    const { login, googleSignIn } = useContext(AuthContext);
+const SignUp = () => {
+    const { signUp, googleSignIn } = useContext(AuthContext);
     const navigate = useNavigate();
     const handleSubmit = (e) => {
         e.preventDefault();
         const form = e.currentTarget;
         const email = form.email.value;
         const password = form.password.value;
-        login(email, password)
+        signUp(email, password)
             .then(res => {
                 console.log(res.user);
-                toast.success('Login Successful!');
+                toast.success('Sign Up Successful!');
                 navigate("/dashboard");
+
             })
             .catch(error =>
                 toast.error(error.message)
@@ -40,7 +41,7 @@ const Login = () => {
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div className="text-center lg:text-left">
-                    <h1 className="text-5xl font-bold">Login now!</h1>
+                    <h1 className="text-5xl font-bold">Sign Up now!</h1>
                     <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                 </div>
                 <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100 p-6">
@@ -56,15 +57,12 @@ const Login = () => {
                                 <span className="label-text">Password</span>
                             </label>
                             <input type="password" name="password" placeholder="password" className="input input-bordered" required />
-                            <label className="label">
-                                <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
-                            </label>
                         </div>
                         <div className="form-control mt-6">
-                            <button className="btn btn-neutral">Login</button>
+                            <button className="btn btn-neutral">Sign Up</button>
                         </div>
                     </form>
-                    <h4 className="font-medium text-lg mt-4">Don&apos;t Have an Account? <Link to="/sign-up" className="text-indigo-500 link link-hover">Sign Up</Link></h4>
+                    <h4 className="font-medium text-lg mt-4">Already Have an Account? <Link to="/login" className="text-indigo-500 link link-hover">Login</Link></h4>
                     <div className="divider">Or</div>
                     <button onClick={handleGoogleSignIn} className="btn">
                         <svg className=" w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 48 48">
@@ -78,4 +76,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default SignUp;

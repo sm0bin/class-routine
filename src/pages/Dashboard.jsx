@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 const Dashboard = () => {
     const [routine, setRoutine] = useState([])
@@ -9,6 +10,9 @@ const Dashboard = () => {
     }, [])
     return (
         <div>
+            <Helmet>
+                <title>Class Routine | Dashboard</title>
+            </Helmet>
             <div className="overflow-x-auto">
                 <h2 className="text-center text-3xl font-bold my-12">Class Routine</h2>
                 <div className="flex justify-center gap-8 my-12">
