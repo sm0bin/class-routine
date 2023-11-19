@@ -7,6 +7,122 @@
     "student": "student"
   },
   "appliedFrom": "2023-07-01",
+  "teachers": [
+    {
+      "_id": 1,
+      "abbreviation": "RY",
+      "name": "Dr. Rubaiyat Yasmin",
+      "email": "sheba@ru.ac.bd"
+    },
+    {
+      "_id": 2,
+      "abbreviation": "DD",
+      "name": "Dr. Dipankar Das",
+      "email": "dipankar@ru.ac.bd"
+    },
+    {
+      "_id": 3,
+      "abbreviation": "AMAR",
+      "name": "Dr. Aurangzib Md. Abdur Rahman",
+      "email": "amar_ice@ru.ac.bd"
+    },
+    {
+      "_id": 4,
+      "abbreviation": "EH",
+      "name": "Dr. Md. Emdadul Haque",
+      "email": "haque-ice@ru.ac.bd"
+    },
+    {
+      "_id": 5,
+      "abbreviation": "RH",
+      "name": "Dr. Mirza A. F. M. Rashidul Hasan",
+      "email": "mirza_ice@ru.ac.bd"
+    },
+    {
+      "_id": 6,
+      "abbreviation": "FA",
+      "name": "Dr. Firoz Ahmed",
+      "email": "fahmed@ru.ac.bd"
+    },
+    {
+      "_id": 7,
+      "abbreviation": "HH",
+      "name": "Halida Homyara",
+      "email": "halida_ice@ru.ac.bd"
+    },
+    {
+      "_id": 8,
+      "abbreviation": "HK",
+      "name": "Md. Hasnat Kabir",
+      "email": "na"
+    },
+    {
+      "_id": 9,
+      "abbreviation": "SR",
+      "name": "Muhammad Sajjadur Rahim",
+      "email": "sajid_ice@ru.ac.bd"
+    },
+    {
+      "_id": 10,
+      "abbreviation": "MRH",
+      "name": "Md. Reaz Hossain",
+      "email": "reaz@ru.ac.bd"
+    },
+    {
+      "_id": 11,
+      "abbreviation": "RUM",
+      "name": "Dr. Riaz Uddin Mondal",
+      "email": "riaz_uddin_mondal@ru.ac.bd"
+    },
+    {
+      "_id": 12,
+      "abbreviation": "LN",
+      "name": "Laila Naznin",
+      "email": "ln.ice@ru.ac.bd"
+    },
+    {
+      "_id": 13,
+      "abbreviation": "MZ",
+      "name": "Mustari Zaman",
+      "email": "mustari.zaman@ru.ac.bd"
+    },
+    {
+      "_id": 14,
+      "abbreviation": "GR",
+      "name": "Md. Golam Rashed",
+      "email": "golamrashed@ru.ac.bd"
+    },
+    {
+      "_id": 15,
+      "abbreviation": "MH",
+      "name": "Dr. Mousumi Haque",
+      "email": "mouice@ru.ac.bd"
+    },
+    {
+      "_id": 16,
+      "abbreviation": "MI",
+      "name": "Md. Matiqul Islam",
+      "email": "matiqul@ru.ac.bd"
+    },
+    {
+      "_id": 17,
+      "abbreviation": "AI",
+      "name": "Md. Ashraful Islam",
+      "email": "ras_ice@ru.ac.bd"
+    },
+    {
+      "_id": 18,
+      "abbreviation": "FZ",
+      "name": "Foez Ahmed",
+      "email": "foez28@ru.ac.bd"
+    },
+    {
+      "_id": 19,
+      "abbreviation": "FA-2",
+      "name": "Md. Firoz Ahmed",
+      "email": "firozice01@ru.ac.bd"
+    }
+  ],
   "days": [
     {
       "name": "Sunday",

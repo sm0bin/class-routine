@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet-async";
 const Dashboard = () => {
     const [routine, setRoutine] = useState([])
     useEffect(() => {
-        fetch('test2.json')
+        fetch('http://localhost:5500/institutions/6559ea82a24d8fa78a3c308b')
             .then(res => res.json())
             .then(data => setRoutine(data.days))
     }, [])
@@ -88,17 +88,10 @@ const Dashboard = () => {
                     <tbody className="border-t-2 border-gray-300">
 
 
-
-
-
-
-
-
-
                         {
-                            routine.map((day) => (
+                            routine.map((day, idx) => (
                                 <>
-                                    <tr key={day.id}>
+                                    <tr key={idx}>
                                         <th colSpan="9" className="text-center text-3xl py-4 bg-gray-800 text-white">
                                             {day.name}
                                         </th>

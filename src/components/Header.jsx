@@ -43,7 +43,7 @@ const Header = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">Class Routine</a>
+                <NavLink to="/" className="font-bold text-2xl btn btn-ghost">Class Routine</NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
