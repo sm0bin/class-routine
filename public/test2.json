@@ -1,0 +1,2157 @@
+{
+  "university": "University of Rajshahi",
+  "dept": "Department of Information and Communication Engineering",
+  "token": {
+    "administrator": "admin",
+    "teacher": "teacher",
+    "student": "student"
+  },
+  "appliedFrom": "2023-07-01",
+  "days": [
+    {
+      "name": "Sunday",
+      "batches": [
+        {
+          "name": "1st Year Odd (2023)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "1st Year Even (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "2nd Year Even (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "3rd Year Odd (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "4th Year Odd (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "MSc/M 1st Sem (2020)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "MSc/M 2nd Sem (2020)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "MSc/M 3rd Sem (2020)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Monday",
+      "batches": [
+        {
+          "name": "1st Year Odd (2023)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "1st Year Even (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "2nd Year Even (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "3rd Year Odd (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "4th Year Odd (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "MSc/M 1st Sem (2020)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "MSc/M 2nd Sem (2020)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "MSc/M 3rd Sem (2020)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tuesday",
+      "batches": [
+        {
+          "name": "1st Year Odd (2023)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "1st Year Even (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "2nd Year Even (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "3rd Year Odd (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "4th Year Odd (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "MSc/M 1st Sem (2020)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "MSc/M 2nd Sem (2020)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "MSc/M 3rd Sem (2020)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Wednesday",
+      "batches": [
+        {
+          "name": "1st Year Odd (2023)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "1st Year Even (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "2nd Year Even (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "3rd Year Odd (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "4th Year Odd (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "MSc/M 1st Sem (2020)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "MSc/M 2nd Sem (2020)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "MSc/M 3rd Sem (2020)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thursday",
+      "batches": [
+        {
+          "name": "1st Year Odd (2023)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "1st Year Even (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "2nd Year Even (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "3rd Year Odd (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "4th Year Odd (2022)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "MSc/M 1st Sem (2020)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "MSc/M 2nd Sem (2020)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        },
+        {
+          "name": "MSc/M 3rd Sem (2020)",
+          "schedule": {
+            "9": {
+              "course": "SubjectC1",
+              "teacher": "T1",
+              "duration": 1,
+              "room": 223
+            },
+            "10": {
+              "course": "SubjectD1",
+              "teacher": "T2",
+              "duration": 1,
+              "room": 202
+            },
+            "11": {
+              "course": "SubjectE1",
+              "teacher": "T3",
+              "duration": 1,
+              "room": 427
+            },
+            "12": {
+              "course": "Break",
+              "teacher": "N/A",
+              "duration": 1,
+              "room": "N/A"
+            },
+            "1": {
+              "course": "SubjectF1",
+              "teacher": "T4",
+              "duration": 1,
+              "room": 223
+            },
+            "2": {
+              "course": "SubjectG1",
+              "teacher": "T5",
+              "duration": 1,
+              "room": 202
+            },
+            "3": {
+              "course": "SubjectH1",
+              "teacher": "T6",
+              "duration": 1,
+              "room": 427
+            },
+            "4": {
+              "course": "SubjectI1",
+              "teacher": "T7",
+              "duration": 1,
+              "room": 202
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,11 @@
+courseCode:
+course
+teacher
+duration
+room
+
+
+
 University of Rajshahi
 
 Department of Information and Communication Engineering
