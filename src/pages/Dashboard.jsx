@@ -4,9 +4,9 @@ import { Helmet } from "react-helmet-async";
 const Dashboard = () => {
     const [routine, setRoutine] = useState([])
     useEffect(() => {
-        fetch('data.json')
+        fetch('test2.json')
             .then(res => res.json())
-            .then(data => setRoutine(data))
+            .then(data => setRoutine(data.days))
     }, [])
 
 
@@ -110,38 +110,38 @@ const Dashboard = () => {
                                                     {batch.name}
                                                 </th>
                                                 <td>
-                                                    <button className="btn btn-ghost btn-block" onClick={() => handleShowModal(`${batch.schedule["09:05 - 10:00"]}`)}>
-                                                        {batch.schedule["09:05 - 10:00"]}
+                                                    <button className="btn btn-ghost btn-block" onClick={() => handleShowModal(`${batch.schedule["09"]}`)}>
+                                                        {batch.schedule["09"].course} {batch.schedule["09"].teacher} {batch.schedule["09"].room}
                                                     </button>
                                                 </td>
                                                 <td>
-                                                    <button className="btn btn-ghost btn-block" onClick={() => handleShowModal(`${batch.schedule["10:05 - 11:00"]}`)}>
-                                                        {batch.schedule["10:05 - 11:00"]}
+                                                    <button className="btn btn-ghost btn-block" onClick={() => handleShowModal(`${batch.schedule["10"]}`)}>
+                                                        {batch.schedule["10"].course} {batch.schedule["10"].teacher} {batch.schedule["10"].room}
                                                     </button>
                                                 </td>
                                                 <td>
-                                                    <button className="btn btn-ghost btn-block" onClick={() => handleShowModal(`${batch.schedule["11:05 - 12:00"]}`)}>
-                                                        {batch.schedule["11:05 - 12:00"]}
+                                                    <button className="btn btn-ghost btn-block" onClick={() => handleShowModal(`${batch.schedule["11"]}`)}>
+                                                        {batch.schedule["11"].course} {batch.schedule["11"].teacher} {batch.schedule["11"].room}
                                                     </button>
                                                 </td>
                                                 <td>
-                                                    <button className="btn btn-ghost btn-block" onClick={() => handleShowModal(`${batch.schedule["12:05 - 01:00"]}`)}>
-                                                        {batch.schedule["12:05 - 01:00"]}
+                                                    <button className="btn btn-ghost btn-block bg-gray-200" onClick={() => handleShowModal(`${batch.schedule["12"]}`)}>
+                                                        {batch.schedule["12"].course} {batch.schedule["12"].teacher} {batch.schedule["12"].room}
                                                     </button>
                                                 </td>
                                                 <td>
-                                                    <button className="btn btn-ghost btn-block btn-disabled" onClick={() => handleShowModal(`${batch.schedule["01:05 - 02:00"]}`)}>
-                                                        {batch.schedule["01:05 - 02:00"]}
+                                                    <button className="btn btn-ghost btn-block" onClick={() => handleShowModal(`${batch.schedule["01"]}`)}>
+                                                        {batch.schedule["01"].course} {batch.schedule["01"].teacher} {batch.schedule["01"].room}
                                                     </button>
                                                 </td>
                                                 <td>
-                                                    <button className="btn btn-ghost btn-block" onClick={() => handleShowModal(`${batch.schedule["02:05 - 03:00"]}`)}>
-                                                        {batch.schedule["02:05 - 03:00"]}
+                                                    <button className="btn btn-ghost btn-block" onClick={() => handleShowModal(`${batch.schedule["02"]}`)}>
+                                                        {batch.schedule["02"].course} {batch.schedule["02"].teacher} {batch.schedule["02"].room}
                                                     </button>
                                                 </td>
                                                 <td>
-                                                    <button className="btn btn-ghost btn-block" onClick={() => handleShowModal(`${batch.schedule["03:05 - 04:00"]}`)}>
-                                                        {batch.schedule["03:05 - 04:00"]}
+                                                    <button className="btn btn-ghost btn-block" onClick={() => handleShowModal(`${batch.schedule["03"]}`)}>
+                                                        {batch.schedule["03"].course} {batch.schedule["03"].teacher} {batch.schedule["03"].room}
                                                     </button>
                                                 </td>
                                             </tr>
