@@ -1,0 +1,15 @@
+[
+  {
+    "batch": "11-2023",
+    "day": "sunday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  }
+]

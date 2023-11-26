@@ -1,0 +1,800 @@
+[
+  {
+    "batch": "11-2023",
+    "day": "sunday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "11-2023",
+    "day": "sunday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "11-2023",
+    "day": "sunday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "21-2023",
+    "day": "sunday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "21-2023",
+    "day": "sunday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "21-2023",
+    "day": "sunday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "31-2023",
+    "day": "sunday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "31-2023",
+    "day": "sunday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "31-2023",
+    "day": "sunday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "41-2023",
+    "day": "sunday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "41-2023",
+    "day": "sunday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "41-2023",
+    "day": "sunday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "11-2023",
+    "day": "monday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "11-2023",
+    "day": "monday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "11-2023",
+    "day": "monday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "21-2023",
+    "day": "monday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "21-2023",
+    "day": "monday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "21-2023",
+    "day": "monday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "31-2023",
+    "day": "monday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "31-2023",
+    "day": "monday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "31-2023",
+    "day": "monday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "41-2023",
+    "day": "monday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "41-2023",
+    "day": "monday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "41-2023",
+    "day": "monday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1211",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "11-2023",
+    "day": "tuesday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1221",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "11-2023",
+    "day": "tuesday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1221",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "11-2023",
+    "day": "tuesday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1221",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "21-2023",
+    "day": "tuesday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1221",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "21-2023",
+    "day": "tuesday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1221",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "21-2023",
+    "day": "tuesday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1221",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "31-2023",
+    "day": "tuesday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1221",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "31-2023",
+    "day": "tuesday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1221",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "31-2023",
+    "day": "tuesday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1221",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "41-2023",
+    "day": "tuesday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1221",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "41-2023",
+    "day": "tuesday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1221",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "41-2023",
+    "day": "tuesday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1221",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "11-2023",
+    "day": "wednesday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1231",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "11-2023",
+    "day": "wednesday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1231",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "11-2023",
+    "day": "wednesday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1231",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "21-2023",
+    "day": "wednesday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1231",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "21-2023",
+    "day": "wednesday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1231",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "21-2023",
+    "day": "wednesday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1231",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "31-2023",
+    "day": "wednesday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1231",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "31-2023",
+    "day": "wednesday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1231",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "31-2023",
+    "day": "wednesday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1231",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "41-2023",
+    "day": "wednesday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1231",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "41-2023",
+    "day": "wednesday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1231",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "41-2023",
+    "day": "wednesday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1231",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "11-2023",
+    "day": "thursday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1241",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "11-2023",
+    "day": "thursday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1241",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "11-2023",
+    "day": "thursday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1241",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "21-2023",
+    "day": "thursday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1241",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "21-2023",
+    "day": "thursday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1241",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "21-2023",
+    "day": "thursday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1241",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "31-2023",
+    "day": "thursday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1241",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "31-2023",
+    "day": "thursday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1241",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "31-2023",
+    "day": "thursday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1241",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+
+  {
+    "batch": "41-2023",
+    "day": "thursday",
+    "time": "09:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1241",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "41-2023",
+    "day": "thursday",
+    "time": "10:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1241",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  },
+  {
+    "batch": "41-2023",
+    "day": "thursday",
+    "time": "11:00",
+    "duration": "1:00",
+    "status": "active",
+    "courseDetails": {
+      "course": "ICE1241",
+      "section": "A",
+      "teacher": "HH",
+      "room": "232"
+    }
+  }
+]
