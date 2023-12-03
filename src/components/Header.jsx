@@ -33,7 +33,7 @@ const Header = () => {
 
 
     return (
-        <div className="navbar sticky top-0 inset-x-0 z-50 bg-base-100">
+        <div className="navbar sticky top-0 inset-x-0 z-50 bg-base-100 shadow">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -51,7 +51,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <NavLink to="/login" className="btn btn-neutral">Get Started</NavLink>
+                <NavLink to="/login" className="btn btn-neutral">Login</NavLink>
             </div>
         </div>
     );

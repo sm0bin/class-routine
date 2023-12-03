@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 
 const Dashboard = () => {
+
     const [routine, setRoutine] = useState([])
     useEffect(() => {
         fetch('/test5.json')
@@ -9,127 +10,169 @@ const Dashboard = () => {
             .then(data => setRoutine(data))
     }, [])
 
-    const sunday11 = routine.filter(r => r.batch === "11-2023" && r.day === "sunday");
-    const sunday12 = routine.filter(r => r.batch === "12-2023" && r.day === "sunday");
-    const sunday13 = routine.filter(r => r.batch === "13-2023" && r.day === "sunday");
-    const sunday14 = routine.filter(r => r.batch === "14-2023" && r.day === "sunday");
 
-    const monday11 = routine.filter(r => r.batch === "11-2023" && r.day === "monday");
-    const monday12 = routine.filter(r => r.batch === "12-2023" && r.day === "monday");
-    const monday13 = routine.filter(r => r.batch === "13-2023" && r.day === "monday");
-    const monday14 = routine.filter(r => r.batch === "14-2023" && r.day === "monday");
-
-    const tuesday11 = routine.filter(r => r.batch === "11-2023" && r.day === "tuesday");
-    const tuesday12 = routine.filter(r => r.batch === "12-2023" && r.day === "tuesday");
-    const tuesday13 = routine.filter(r => r.batch === "13-2023" && r.day === "tuesday");
-    const tuesday14 = routine.filter(r => r.batch === "14-2023" && r.day === "tuesday");
-
-    const wednesday11 = routine.filter(r => r.batch === "11-2023" && r.day === "wednesday");
-    const wednesday12 = routine.filter(r => r.batch === "12-2023" && r.day === "wednesday");
-    const wednesday13 = routine.filter(r => r.batch === "13-2023" && r.day === "wednesday");
-    const wednesday14 = routine.filter(r => r.batch === "14-2023" && r.day === "wednesday");
-
-    const thursday11 = routine.filter(r => r.batch === "11-2023" && r.day === "thursday");
-    const thursday12 = routine.filter(r => r.batch === "12-2023" && r.day === "thursday");
-    const thursday13 = routine.filter(r => r.batch === "13-2023" && r.day === "thursday");
-    const thursday14 = routine.filter(r => r.batch === "14-2023" && r.day === "thursday");
+    const batchName = ["1st Year", "2nd Year", "3rd Year", "4th Year"];
 
 
-
-    const handleShowModal = (classString) => {
-        console.log(classString, typeof classString);
-        classString !== "undefined" ?
-            document.getElementById('classModal1').showModal() :
-            document.getElementById('classModal2').showModal();
-
+    const handleShowModal = () => {
+        // console.log(classString, typeof classString);
+        // classString !== "undefined" ?
+        //     document.getElementById('classModal1').showModal() :
+        //     document.getElementById('classModal2').showModal();
+        document.getElementById('classModal1').showModal();
     }
+
     return (
-        <div className=" mx-4 md:mx-8 lg:mx-auto max-w-7xl">
+        <div className=" mx-4 md:mx-8 lg:mx-auto max-w-7xl my-8">
 
-            <div className="grid grid-cols-4">
-                <div className="bg-indigo-100 p-2 m-2 rounded-md text-center">Day</div>
-                <div className="bg-indigo-100 p-2 m-2 rounded-md text-center">09:00</div>
-                <div className="bg-indigo-100 p-2 m-2 rounded-md text-center">10:00</div>
-                <div className="bg-indigo-100 p-2 m-2 rounded-md text-center">11:00</div>
+            <div className="grid grid-cols-5 gap-2 mb-2">
+                <div className="bg-indigo-100 p-2 rounded-md text-center font-semibold text-xl">Day</div>
+                <div className="bg-indigo-100 p-2 rounded-md text-center font-semibold text-xl">Batch</div>
+                <div className="bg-indigo-100 p-2 rounded-md text-center font-semibold text-xl">09:00</div>
+                <div className="bg-indigo-100 p-2 rounded-md text-center font-semibold text-xl">10:00</div>
+                <div className="bg-indigo-100 p-2 rounded-md text-center font-semibold text-xl">11:00</div>
             </div>
 
-            <div className="grid grid-cols-4">
-                <div className="col-span-1 grid grid-cols-1">
-                    <div className="bg-indigo-100 p-2 m-2 rounded-md text-center col-span-4">Sunday</div>
-                    <div className="bg-indigo-100 p-2 m-2 rounded-md text-center col-span-4">Monday</div>
-                    <div className="bg-indigo-100 p-2 m-2 rounded-md text-center col-span-4">Tuesday</div>
-                    <div className="bg-indigo-100 p-2 m-2 rounded-md text-center col-span-4">Wednesday</div>
-                    <div className="bg-indigo-100 p-2 m-2 rounded-md text-center col-span-4">Thursday</div>
+            <div className="grid grid-cols-5 gap-2">
+                <div className="col-span-1 grid grid-cols-1 gap-2">
+                    <div className="bg-indigo-100 p-2 rounded-md text-center col-span-4 flex justify-center items-center font-bold text-2xl">Sunday</div>
+                    <div className="bg-indigo-100 p-2 rounded-md text-center col-span-4 flex justify-center items-center font-bold text-2xl">Monday</div>
+                    <div className="bg-indigo-100 p-2 rounded-md text-center col-span-4 flex justify-center items-center font-bold text-2xl">Tuesday</div>
+                    <div className="bg-indigo-100 p-2 rounded-md text-center col-span-4 flex justify-center items-center font-bold text-2xl">Wednesday</div>
+                    <div className="bg-indigo-100 p-2 rounded-md text-center col-span-4 flex justify-center items-center font-bold text-2xl">Thursday</div>
+                </div>
+                <div className="col-span-1 grid grid-cols-1 gap-2">
+                    {/* <div className="bg-indigo-100 p-2 rounded-md text-center col-span-4 flex justify-center items-center font-bold text-2xl">Sunday</div>
+                    <div className="bg-indigo-100 p-2 rounded-md text-center col-span-4 flex justify-center items-center font-bold text-2xl">Monday</div>
+                    <div className="bg-indigo-100 p-2 rounded-md text-center col-span-4 flex justify-center items-center font-bold text-2xl">Tuesday</div>
+                    <div className="bg-indigo-100 p-2 rounded-md text-center col-span-4 flex justify-center items-center font-bold text-2xl">Wednesday</div>
+                    <div className="bg-indigo-100 p-2 rounded-md text-center col-span-4 flex justify-center items-center font-bold text-2xl">Thursday</div> */}
+
+                    {
+                        batchName.map((b, i) => (
+                            <div key={i} className="bg-indigo-100 p-2 rounded-md text-center col-span-4 font-semibold text-lg">{b}</div>
+                        ))
+                    }
+                    {
+                        batchName.map((b, i) => (
+                            <div key={i} className="bg-indigo-100 p-2 rounded-md text-center col-span-4 font-semibold text-lg">{b}</div>
+                        ))
+                    }
+                    {
+                        batchName.map((b, i) => (
+                            <div key={i} className="bg-indigo-100 p-2 rounded-md text-center col-span-4 font-semibold text-lg">{b}</div>
+                        ))
+                    }
+                    {
+                        batchName.map((b, i) => (
+                            <div key={i} className="bg-indigo-100 p-2 rounded-md text-center col-span-4 font-semibold text-lg">{b}</div>
+                        ))
+                    }
+                    {
+                        batchName.map((b, i) => (
+                            <div key={i} className="bg-indigo-100 p-2 rounded-md text-center col-span-4 font-semibold text-lg">{b}</div>
+                        ))
+                    }
                 </div>
 
-                <div className="grid grid-cols-3 col-span-3">
-
+                <div className="grid grid-cols-3 col-span-3 gap-2">
                     {
-                        sunday11.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}>{r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-                    {
-                        sunday12.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}>{r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-                    {
-                        sunday13.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}>{r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-                    {
-                        sunday14.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}>{r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
+                        routine.map((r, i) => (
+                            <div onClick={handleShowModal} key={i} className="bg-gray-100 p-2 rounded-md text-center">
+                                {r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher}  {r.courseDetails.room}
+                            </div>
+                        ))
                     }
 
-                    {
-                        monday11.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}>{r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-                    {
-                        monday12.map((r, i) => <div key={i + 10} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}> {r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-                    {
-                        monday13.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}>{r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-                    {
-                        monday14.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}>{r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-
-                    {
-                        tuesday11.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}>{r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-                    {
-                        tuesday12.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}> {r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-                    {
-                        tuesday13.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}>{r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-                    {
-                        tuesday14.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}> {r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-
-                    {
-                        wednesday11.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}> {r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-                    {
-                        wednesday12.map((r, i) => <div key={i + 10} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}> {r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-                    {
-                        wednesday13.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}> {r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-                    {
-                        wednesday14.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}> {r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-
-                    {
-                        thursday11.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}> {r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-                    {
-                        thursday12.map((r, i) => <div key={i + 10} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}> {r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-                    {
-                        thursday13.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}> {r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
-                    {
-                        thursday14.map((r, i) => <div key={i} className="bg-gray-100 p-2 m-2 rounded-md text-center" onClick={() => handleShowModal(r.courseDetails.course)}> {r.courseDetails.course} {r.courseDetails.section} {r.courseDetails.teacher} {r.courseDetails.room}</div>)
-                    }
                 </div>
             </div>
+
+
+            <dialog id="classModal1" className="modal">
+                <div className="modal-box">
+                    <form method="dialog">
+                        {/* if there is a button in form, it will close the modal */}
+                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+                    {/* <h3 className="font-bold text-lg mb-2">Change Class State</h3>
+                    <form>
+                        <select className="select select-bordered w-full max-w-xs">
+                            <option disabled selected>Class State</option>
+                            <option selected>Will Happen</option>
+                            <option>Pending</option>
+                            <option>Cancelled</option>
+                        </select>
+
+                    </form> */}
+
+                    <form className="card-body">
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text">Change Class State</span>
+                            </label>
+                            {/* <input type="email" placeholder="email" className="input input-bordered" required /> */}
+                            <select className="select select-bordered w-full">
+                                <option disabled selected>Change Class State</option>
+                                <option selected>Will Happen</option>
+                                <option>Pending</option>
+                                <option>Cancel</option>
+                            </select>
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text">Available Class Slots</span>
+                            </label>
+                            {/* <input type="password" placeholder="password" className="input input-bordered" required /> */}
+                            <select className="select select-bordered w-full">
+                                {/* <option disabled selected>Class State</option> */}
+                                <option selected disabled>Change Class Time</option>
+                                <option value="09:05 - 10:00">09:05 - 10:00</option>
+                                <option value="10:05 - 11:00">10:05 - 11:00</option>
+                                <option value="11:05 - 12:00">11:05 - 12:00</option>
+                                <option value="12:05 - 01:00">12:05 - 01:00</option>
+                                <option value="01:05 - 02:00">01:05 - 02:00</option>
+                                <option value="02:05 - 03:00">02:05 - 03:00</option>
+                                <option value="03:05 - 04:00">03:05 - 04:00</option>
+                            </select>
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text">Room No</span>
+                            </label>
+                            {/* <input type="password" placeholder="password" className="input input-bordered" required /> */}
+                            <select className="select select-bordered w-full">
+                                <option disabled selected>Change Room</option>
+                                {/* <option selected disabled>Will Happen</option> */}
+                                <option value="427">427</option>
+                                <option value="433">433</option>
+                                <option value="220">220</option>
+
+                            </select>
+                        </div>
+                        <div className="form-control mt-6">
+                            <button className="btn btn-neutral">Update</button>
+                        </div>
+                    </form>
+                </div>
+            </dialog>
+            <dialog id="classModal2" className="modal">
+                <div className="modal-box">
+                    <form method="dialog">
+                        {/* if there is a button in form, it will close the modal */}
+                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
+                    <h3 className="font-bold text-lg mb-2">Assign Class</h3>
+                    <form>
+                        <select className="select select-bordered w-full max-w-xs">
+                            {/* <option disabled selected>Class State</option> */}
+                            <option selected>Will Happen</option>
+                            <option>Pending</option>
+                            <option>Cancelled</option>
+                        </select>
+
+                    </form>
+                </div>
+            </dialog>
         </div>
     );
 };
