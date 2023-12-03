@@ -14,6 +14,8 @@ import AuthProvider from "./providers/AuthProvider";
 import SignUp from "./auth/SignUp";
 import Usage from "./pages/Usage";
 import { HelmetProvider } from "react-helmet-async";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 const router = createBrowserRouter([
   {
@@ -25,14 +27,14 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
       },
-      // {
-      //   path: "/about",
-      //   element: <About></About>,
-      // },
-      // {
-      //   path: "/contact",
-      //   element: <Contact></Contact>,
-      // },
+      {
+        path: "/about",
+        element: <About></About>,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
+      },
       {
         path: "/dashboard",
         element: <Dashboard></Dashboard>,
