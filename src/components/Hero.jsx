@@ -13,7 +13,7 @@ const Hero = () => {
                     <div className="space-x-4">
                         <button onClick={() => navigate("/login")} className="btn btn-neutral btn-outline btn-lg bg-white">Login</button>
 
-                        <button onClick={() => navigate("/sign-up")} className="btn btn-info btn-lg">Sign Up</button>
+                        <button onClick={() => navigate("/signup")} className="btn btn-info btn-lg">Sign Up</button>
                     </div>
                 </div>
             </div>

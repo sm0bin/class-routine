@@ -64,7 +64,7 @@ const Login = () => {
                             <button className="btn btn-neutral">Login</button>
                         </div>
                     </form>
-                    <h4 className="font-medium text-lg mt-4">Don&apos;t Have an Account? <Link to="/sign-up" className="text-indigo-500 link link-hover">Sign Up</Link></h4>
+                    <h4 className="font-medium text-lg mt-4">Don&apos;t Have an Account? <Link to="/signup" className="text-indigo-500 link link-hover">Sign Up</Link></h4>
                     <div className="divider">Or</div>
                     <button onClick={handleGoogleSignIn} className="btn">
                         <svg className=" w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 48 48">

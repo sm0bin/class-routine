@@ -5,7 +5,7 @@ const Dashboard = () => {
 
     const [routine, setRoutine] = useState([])
     useEffect(() => {
-        fetch('/test5.json')
+        fetch(`${import.meta.env.VITE_API_URL}/classes`)
             .then(res => res.json())
             .then(data => setRoutine(data))
     }, [])
