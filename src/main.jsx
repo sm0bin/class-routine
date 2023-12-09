@@ -16,6 +16,7 @@ import Usage from "./pages/Usage";
 import { HelmetProvider } from "react-helmet-async";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import { Toaster } from "react-hot-toast";
 
 const router = createBrowserRouter([
   {
@@ -59,6 +60,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <AuthProvider>
       <HelmetProvider>
+        <Toaster />
         <RouterProvider router={router} />
       </HelmetProvider>
     </AuthProvider>

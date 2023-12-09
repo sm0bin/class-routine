@@ -1,5 +1,7 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
+import { toast } from "react-hot-toast";
 
 const Dashboard = () => {
 
@@ -13,6 +15,28 @@ const Dashboard = () => {
 
     const batchName = ["1st Year", "2nd Year", "3rd Year", "4th Year"];
 
+    const handleUpdate = (e) => {
+        e.preventDefault();
+        const form = e.target;
+        document.getElementById('classModal1').close();
+
+
+        const state = form.state.value;
+        const time = form.time.value;
+        const room = form.room.value;
+
+        console.log({ state, time, room });
+
+        // axios.put(`${import.meta.env.VITE_API_URL}/classes`, {
+        //     state,
+        //     time,
+        //     room
+        // }).then(res => console.log(res.data))
+        //     .catch(err => console.log(err))
+
+        toast.success('Class Updated Successfully');
+    }
+
 
     const handleShowModal = () => {
         // console.log(classString, typeof classString);
@@ -24,6 +48,9 @@ const Dashboard = () => {
 
     return (
         <div className=" mx-4 md:mx-8 lg:mx-auto max-w-7xl my-8">
+            <Helmet>
+                <title>Class Routine | Dashboard</title>
+            </Helmet>
 
             <div className="grid grid-cols-5 gap-2 mb-2">
                 <div className="bg-indigo-100 p-2 rounded-md text-center font-semibold text-xl">Day</div>
@@ -105,13 +132,13 @@ const Dashboard = () => {
 
                     </form> */}
 
-                    <form className="card-body">
+                    <form onSubmit={handleUpdate} className="card-body">
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Change Class State</span>
                             </label>
                             {/* <input type="email" placeholder="email" className="input input-bordered" required /> */}
-                            <select className="select select-bordered w-full">
+                            <select name="state" className="select select-bordered w-full">
                                 <option disabled selected>Change Class State</option>
                                 <option selected>Will Happen</option>
                                 <option>Pending</option>
@@ -123,16 +150,16 @@ const Dashboard = () => {
                                 <span className="label-text">Available Class Slots</span>
                             </label>
                             {/* <input type="password" placeholder="password" className="input input-bordered" required /> */}
-                            <select className="select select-bordered w-full">
+                            <select name="time" className="select select-bordered w-full">
                                 {/* <option disabled selected>Class State</option> */}
                                 <option selected disabled>Change Class Time</option>
-                                <option value="09:05 - 10:00">09:05 - 10:00</option>
-                                <option value="10:05 - 11:00">10:05 - 11:00</option>
-                                <option value="11:05 - 12:00">11:05 - 12:00</option>
-                                <option value="12:05 - 01:00">12:05 - 01:00</option>
-                                <option value="01:05 - 02:00">01:05 - 02:00</option>
-                                <option value="02:05 - 03:00">02:05 - 03:00</option>
-                                <option value="03:05 - 04:00">03:05 - 04:00</option>
+                                <option value="09:05 - 10:00">09:00 - 10:00</option>
+                                <option value="10:05 - 11:00">10:00 - 11:00</option>
+                                <option value="11:05 - 12:00">11:00 - 12:00</option>
+                                <option value="12:05 - 01:00">12:00 - 01:00</option>
+                                <option value="01:05 - 02:00">01:00 - 02:00</option>
+                                <option value="02:05 - 03:00">02:00 - 03:00</option>
+                                <option value="03:05 - 04:00">03:00 - 04:00</option>
                             </select>
                         </div>
                         <div className="form-control">
@@ -140,7 +167,7 @@ const Dashboard = () => {
                                 <span className="label-text">Room No</span>
                             </label>
                             {/* <input type="password" placeholder="password" className="input input-bordered" required /> */}
-                            <select className="select select-bordered w-full">
+                            <select name='room' className="select select-bordered w-full">
                                 <option disabled selected>Change Room</option>
                                 {/* <option selected disabled>Will Happen</option> */}
                                 <option value="427">427</option>
@@ -155,6 +182,8 @@ const Dashboard = () => {
                     </form>
                 </div>
             </dialog>
+
+
             <dialog id="classModal2" className="modal">
                 <div className="modal-box">
                     <form method="dialog">
@@ -165,9 +194,10 @@ const Dashboard = () => {
                     <form>
                         <select className="select select-bordered w-full max-w-xs">
                             {/* <option disabled selected>Class State</option> */}
-                            <option selected>Will Happen</option>
+                            <option selected>Default</option>
                             <option>Pending</option>
                             <option>Cancelled</option>
+                            <option>Changed</option>
                         </select>
 
                     </form>
