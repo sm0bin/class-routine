@@ -1,6 +1,21 @@
+import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
+import { set } from "react-hook-form";
 
 const Dashboard = () => {
+    const [classes, setClasses] = useState([]);
+
+    useEffect(() => {
+        const fetchClasses = async () => {
+            const response = await fetch('data2.json');
+            const data = await response.json();
+            setClasses(data);
+        }
+        fetchClasses();
+    }, []);
+
+    console.log(classes);
+
     const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu'];
     const batches = ['Batch 1', 'Batch 2', 'Batch 3', 'Batch 4', 'Batch 5'];
 
@@ -10,7 +25,7 @@ const Dashboard = () => {
                 <title>Class Routine | Dashboard</title>
             </Helmet>
 
-            <div className="grid grid-cols-9 gap-2 mb-2">
+            <div className="grid grid-cols-9 grid-rows-[25] gap-2 mb-2">
                 <div className="bg-indigo-100 p-2 rounded-md text-center font-semibold text-lg">Day</div>
                 <div className="bg-indigo-100 p-2 rounded-md text-center font-semibold text-lg">Batch</div>
                 <div className="bg-indigo-100 p-2 rounded-md text-center font-semibold text-lg">09:00 - 10:00</div>
@@ -37,6 +52,14 @@ const Dashboard = () => {
                     ))}
                 </div>
 
+                <div className="grid grid-cols-7 grid-rows-[24] gap-2 col-span-7">
+                    {classes.map((item, index) => (
+                        <div key={index} className="bg-indigo-100 p-2 rounded-md text-center text-base">
+                            {item.course.slice(0, 8)}
+                        </div>
+                    ))}
+
+                </div>
             </div>
 
 

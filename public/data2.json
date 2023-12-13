@@ -1,0 +1,1402 @@
+[
+  {
+    "day": "Sun",
+    "batch": "Batch 1",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1211 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 1",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1211 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 1",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1211 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 1",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1211 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 1",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1211 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 1",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1211 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 1",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1211 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 2",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1222 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 2",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1222 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 2",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1222 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 2",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1222 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 2",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1222 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 2",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1222 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 2",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1222 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 3",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1233 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 3",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1233 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 3",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1233 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 3",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1233 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 3",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1233 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 3",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1233 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 3",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1233 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 4",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1244 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 4",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1244 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 4",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1244 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 4",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1244 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 4",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1244 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 4",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1244 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 4",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1244 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 5",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1255 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 5",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1255 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 5",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1255 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 5",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1255 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 5",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1255 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 5",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1255 A HH 232"
+  },
+  {
+    "day": "Sun",
+    "batch": "Batch 5",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE1255 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 1",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2211 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 1",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2211 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 1",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2211 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 1",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2211 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 1",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2211 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 1",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2211 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 1",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2211 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 2",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2222 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 2",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2222 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 2",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2222 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 2",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2222 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 2",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2222 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 2",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2222 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 2",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2222 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 3",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2233 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 3",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2233 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 3",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2233 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 3",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2233 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 3",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2233 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 3",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2233 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 3",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2233 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 4",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2244 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 4",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2244 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 4",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2244 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 4",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2244 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 4",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2244 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 4",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2244 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 4",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2244 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 5",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2255 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 5",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2255 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 5",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2255 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 5",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2255 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 5",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2255 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 5",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2255 A HH 232"
+  },
+  {
+    "day": "Mon",
+    "batch": "Batch 5",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE2255 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 1",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3211 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 1",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3211 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 1",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3211 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 1",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3211 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 1",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3211 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 1",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3211 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 1",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3211 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 2",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3222 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 2",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3222 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 2",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3222 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 2",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3222 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 2",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3222 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 2",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3222 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 2",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3222 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 3",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3233 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 3",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3233 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 3",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3233 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 3",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3233 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 3",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3233 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 3",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3233 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 3",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3233 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 4",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3244 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 4",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3244 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 4",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3244 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 4",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3244 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 4",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3244 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 4",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3244 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 4",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3244 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 5",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3255 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 5",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3255 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 5",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3255 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 5",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3255 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 5",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3255 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 5",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3255 A HH 232"
+  },
+  {
+    "day": "Tue",
+    "batch": "Batch 5",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE3255 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 1",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4211 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 1",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4211 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 1",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4211 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 1",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4211 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 1",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4211 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 1",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4211 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 1",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4211 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 2",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4222 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 2",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4222 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 2",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4222 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 2",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4222 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 2",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4222 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 2",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4222 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 2",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4222 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 3",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4233 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 3",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4233 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 3",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4233 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 3",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4233 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 3",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4233 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 3",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4233 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 3",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4233 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 4",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4244 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 4",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4244 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 4",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4244 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 4",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4244 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 4",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4244 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 4",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4244 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 4",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4244 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 5",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4255 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 5",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4255 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 5",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4255 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 5",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4255 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 5",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4255 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 5",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4255 A HH 232"
+  },
+  {
+    "day": "Wed",
+    "batch": "Batch 5",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE4255 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 1",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5211 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 1",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5211 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 1",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5211 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 1",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5211 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 1",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5211 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 1",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5211 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 1",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5211 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 2",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5222 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 2",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5222 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 2",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5222 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 2",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5222 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 2",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5222 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 2",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5222 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 2",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5222 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 3",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5233 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 3",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5233 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 3",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5233 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 3",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5233 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 3",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5233 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 3",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5233 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 3",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5233 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 4",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5244 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 4",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5244 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 4",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5244 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 4",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5244 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 4",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5244 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 4",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5244 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 4",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5244 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 5",
+    "time": "9",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5255 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 5",
+    "time": "10",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5255 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 5",
+    "time": "11",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5255 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 5",
+    "time": "12",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5255 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 5",
+    "time": "13",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5255 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 5",
+    "time": "14",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5255 A HH 232"
+  },
+  {
+    "day": "Thu",
+    "batch": "Batch 5",
+    "time": "15",
+    "duration": 1,
+    "status": "active",
+    "course": "ICE5255 A HH 232"
+  }
+]
