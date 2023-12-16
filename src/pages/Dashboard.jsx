@@ -17,7 +17,8 @@ const Dashboard = () => {
     console.log(classes);
 
     const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu'];
-    const batches = ['Batch 1', 'Batch 2', 'Batch 3', 'Batch 4', 'Batch 5'];
+    const batches = ['1st Odd', '1st Even', '2nd Even', '3rd Odd', '4th Odd'];
+    // const batches = ['1st Odd (2023)', '1st Even (2022)', '2nd Even (2022)', '3rd Odd (2022)', '4th Odd (2022)'];
 
     return (
         <section className=" mx-4 md:mx-8 lg:mx-auto max-w-7xl my-8 min-h-screen">
