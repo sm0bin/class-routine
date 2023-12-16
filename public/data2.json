@@ -29,7 +29,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE1211 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Sun",
@@ -85,7 +85,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE1222 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Sun",
@@ -141,7 +141,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE1233 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Sun",
@@ -197,7 +197,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE1244 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Sun",
@@ -253,7 +253,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE1255 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Sun",
@@ -309,7 +309,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE2211 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Mon",
@@ -365,7 +365,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE2222 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Mon",
@@ -421,7 +421,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE2233 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Mon",
@@ -477,7 +477,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE2244 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Mon",
@@ -533,7 +533,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE2255 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Mon",
@@ -589,7 +589,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE3211 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Tue",
@@ -645,7 +645,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE3222 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Tue",
@@ -701,7 +701,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE3233 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Tue",
@@ -757,7 +757,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE3244 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Tue",
@@ -813,7 +813,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE3255 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Tue",
@@ -869,7 +869,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE4211 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Wed",
@@ -925,7 +925,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE4222 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Wed",
@@ -981,7 +981,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE4233 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Wed",
@@ -1037,7 +1037,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE4244 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Wed",
@@ -1093,7 +1093,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE4255 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Wed",
@@ -1149,7 +1149,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE5211 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Thu",
@@ -1205,7 +1205,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE5222 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Thu",
@@ -1261,7 +1261,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE5233 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Thu",
@@ -1317,7 +1317,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE5244 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Thu",
@@ -1373,7 +1373,7 @@
     "time": "12",
     "duration": 1,
     "status": "active",
-    "course": "ICE5255 A HH 232"
+    "course": "Break"
   },
   {
     "day": "Thu",
