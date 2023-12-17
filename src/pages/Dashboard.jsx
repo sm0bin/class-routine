@@ -1,10 +1,11 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { set } from "react-hook-form";
 import { toast } from "react-hot-toast";
 
 const Dashboard = () => {
     const [classes, setClasses] = useState([]);
+    const [selectedClass, setSelectedClass] = useState({});
 
     const stateColor = (state) => {
         if (state === 'active') {
@@ -13,34 +14,44 @@ const Dashboard = () => {
             return 'bg-yellow-100';
         } else if (state === 'canceled') {
             return 'bg-red-100';
+        } else if (state === 'break') {
+            return 'bg-orange-100';
         }
     }
 
-    const handleUpdate = (e) => {
+    const openModal = (id) => {
+        document.getElementById('classModal1').showModal();
+        // console.log(id);
+        setSelectedClass(id);
+    }
+
+
+    const handleUpdate = (e, id) => {
         e.preventDefault();
         const form = e.target;
         document.getElementById('classModal1').close();
-
+        // console.log(form.state.value);
 
         // const state = form.state.value;
         // const time = form.time.value;
         // const room = form.room.value;
 
         // console.log(state, time, room);
-        // axios.put(`${import.meta.env.VITE_API_URL}/classes`, {
-        //     state,
-        //     time,
-        //     room
-        // }).then(res => console.log(res.data))
-        //     .catch(err => console.log(err))
+        axios.put(`${import.meta.env.VITE_API_URL}/classes/${selectedClass}`, {
+            state: form.state.value,
+        }).then(res => {
+            console.log(res.data)
+            toast.success('Class Updated Successfully');
+        })
+            .catch(err => console.log(err))
 
-        toast.success('Class Updated Successfully');
         // alert('Class Updated Successfully');
     }
 
     useEffect(() => {
         const fetchClasses = async () => {
-            const response = await fetch(`${import.meta.env.VITE_API_URL}/classes`);
+            // const response = await fetch(`${import.meta.env.VITE_API_URL}/classes`);
+            const response = await fetch('data2.json');
             const data = await response.json();
             setClasses(data);
         }
@@ -88,7 +99,7 @@ const Dashboard = () => {
 
                     <div className="grid grid-cols-7 grid-rows-[24] gap-2 col-span-7">
                         {classes.map((item, index) => (
-                            <div key={index} onClick={() => document.getElementById('classModal1').showModal()} className={`${stateColor(item.status)} bg-indigo-100 p-2 rounded-md text-center text-base cursor-pointer`}>
+                            <div key={index} onClick={() => openModal(item._id)} className={`${stateColor(item.state)} bg-indigo-100 p-2 rounded-md text-center text-base cursor-pointer`}>
                                 {item.course.slice(0, 8)}
                             </div>
                         ))}
@@ -127,9 +138,9 @@ const Dashboard = () => {
                             {/* <input type="email" placeholder="email" className="input input-bordered" required /> */}
                             <select name="state" className="select select-bordered w-full">
                                 <option disabled selected>Change Class State</option>
-                                <option selected>Will Happen</option>
-                                <option>Pending</option>
-                                <option>Cancel</option>
+                                <option value='active' selected>Will Happen</option>
+                                <option value='pending'>Pending</option>
+                                <option value='canceled'>Cancel</option>
                             </select>
                         </div>
                         {/* <div className="form-control">
