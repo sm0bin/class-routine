@@ -26,7 +26,7 @@ const Dashboard = () => {
     const openModal = async (id) => {
         const res = await axiosPublic(`/classes/${id}`);
         if (res.data) {
-            document.getElementById('classModal1').showModal();
+            document.getElementById('changeClassStateModal').showModal();
             setSelectedClass(res.data);
             console.log(selectedClass);
 
@@ -38,7 +38,7 @@ const Dashboard = () => {
     const handleUpdate = (e) => {
         e.preventDefault();
         const form = e.target;
-        document.getElementById('classModal1').close();
+        document.getElementById('changeClassStateModal').close();
 
         axios.put(`${import.meta.env.VITE_API_URL}/classes/${selectedClass?._id}`, {
             state: form.state.value,
@@ -125,6 +125,7 @@ const Dashboard = () => {
                                 className={`
                                 ${classBackgroundColor(item)}
                                 ${item.course.slice(8, 10) === teacherCode ? 'border-green-400 cursor-pointer' : 'border-transparent cursor-not-allowed'} 
+                                ${'col-span-' + item.duration}
                                 border-2 bg-gray-100 p-2 rounded-md text-center text-base`}>
                                 {item.course.slice(0, 10)}
                                 {/* {item.course} */}
@@ -138,22 +139,12 @@ const Dashboard = () => {
 
 
             {/* Modal */}
-            <dialog id="classModal1" className="modal">
+            <dialog id="changeClassStateModal" className="modal">
                 <div className="modal-box">
                     <form method="dialog">
                         {/* if there is a button in form, it will close the modal */}
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
-                    {/* <h3 className="font-bold text-lg mb-2">Change Class State</h3>
-                    <form>
-                        <select className="select select-bordered w-full max-w-xs">
-                            <option disabled selected>Class State</option>
-                            <option selected>Will Happen</option>
-                            <option>Pending</option>
-                            <option>Cancelled</option>
-                        </select>
-
-                    </form> */}
 
                     <form onSubmit={handleUpdate} className="card-body">
                         <div className="form-control">
