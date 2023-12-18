@@ -11,7 +11,10 @@ const Root = () => {
             {/* {noHeaderFooter || <Header></Header>} */}
             <Header></Header>
             <Outlet></Outlet>
-            {noHeaderFooter || <Footer></Footer>}
+            {/* {noHeaderFooter || <Footer></Footer>} */}
+
+
+
 
         </>
     );

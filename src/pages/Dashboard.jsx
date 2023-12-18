@@ -73,7 +73,7 @@ const Dashboard = () => {
 
                     {
                         headlines?.map((headline, index) => (
-                            <div key={index} className="bg-indigo-50 p-2 rounded-md text-center font-bold text-base">{headline}</div>
+                            <div key={index} className="bg-indigo-50 p-2  rounded-md text-center font-bold text-base">{headline}</div>
                         ))
                     }
 
@@ -105,7 +105,7 @@ const Dashboard = () => {
                                     <div key={batchIndex}
                                         className={`
                                         ${dayBatchBackgroundColor(day)}
-                                         p-2 rounded-md text-center font-semibold text-lg`}>
+                                        p-2 rounded-md text-center font-semibold text-lg`}>
                                         {batch}
                                     </div>
                                 ))}
@@ -124,7 +124,7 @@ const Dashboard = () => {
                                 onClick={() => openModal(item._id)}
                                 className={`
                                 ${classBackgroundColor(item)}
-                                ${item.course.slice(10, 12) === teacherCode ? 'border-green-400 cursor-pointer' : 'border-gray-100 cursor-not-allowed'} 
+                                ${item.course.slice(10, 12) === teacherCode ? 'border-green-400 cursor-pointer' : 'border-transparent cursor-not-allowed'} 
                                 border-2 bg-gray-100 p-2 rounded-md text-center text-base`}>
                                 {item.course.slice(0, 8) + ' ' + item.course.slice(10, 12)}
                             </button>
