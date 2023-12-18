@@ -16,6 +16,7 @@ const Dashboard = () => {
         { id: 3, name: 'canceled' },
         // { id: 4, name: 'break' },
     ]
+    const teacherCode = 'HK';
 
 
     const stateColor = (state) => {
@@ -128,7 +129,7 @@ const Dashboard = () => {
 
                     <div className="grid grid-cols-7 grid-rows-[24] gap-2 col-span-7">
                         {classes?.map((item, index) => (
-                            <button disabled={item.state === 'break'} key={index} onClick={() => openModal(item._id)} className={`${stateColor(item.state)} bg-indigo-100 p-2 rounded-md text-center text-base cursor-pointer`}>
+                            <button disabled={item.state === 'break' || item.course.slice(10, 12) !== teacherCode} key={index} onClick={() => openModal(item._id)} className={`${stateColor(item.state)} ${item.course.slice(10, 12) === teacherCode ? 'border-green-400' : 'border-transparent'} border-2 bg-indigo-100 p-2 rounded-md text-center text-base cursor-pointer`}>
                                 {item.course.slice(0, 8) + ' ' + item.course.slice(10, 12)}
                             </button>
                         ))}
