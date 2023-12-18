@@ -26,7 +26,7 @@ const Dashboard = () => {
     }
 
 
-    const handleUpdate = (e, id) => {
+    const handleUpdate = (e) => {
         e.preventDefault();
         const form = e.target;
         document.getElementById('classModal1').close();
@@ -50,8 +50,8 @@ const Dashboard = () => {
 
     useEffect(() => {
         const fetchClasses = async () => {
-            // const response = await fetch(`${import.meta.env.VITE_API_URL}/classes`);
-            const response = await fetch('data2.json');
+            const response = await fetch(`${import.meta.env.VITE_API_URL}/classes`);
+            // const response = await fetch('data2.json');
             const data = await response.json();
             setClasses(data);
         }
@@ -66,7 +66,7 @@ const Dashboard = () => {
     // const batches = ['1st Odd (2023)', '1st Even (2022)', '2nd Even (2022)', '3rd Odd (2022)', '4th Odd (2022)'];
 
     return (
-        <section className=" mx-4 md:mx-8 lg:mx-auto max-w-7xl my-8 min-h-screen">
+        <section className=" mx-4 md:mx-8 lg:mx-12 my-8 min-h-screen">
             <Helmet>
                 <title>Class Routine | Dashboard</title>
             </Helmet>
@@ -100,7 +100,7 @@ const Dashboard = () => {
                     <div className="grid grid-cols-7 grid-rows-[24] gap-2 col-span-7">
                         {classes.map((item, index) => (
                             <div key={index} onClick={() => openModal(item._id)} className={`${stateColor(item.state)} bg-indigo-100 p-2 rounded-md text-center text-base cursor-pointer`}>
-                                {item.course.slice(0, 8)}
+                                {item.course.slice(0, 8) + ' ' + item.course.slice(10, 12)}
                             </div>
                         ))}
                     </div>
