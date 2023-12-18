@@ -61,7 +61,7 @@ const Dashboard = () => {
 
 
     return (
-        <section className=" mx-4 md:mx-8 lg:mx-12 my-24 min-h-screen">
+        <section className=" mx-4 md:mx-8 lg:mx-2 my-24 min-h-screen">
 
             <Helmet>
                 <title>Class Routine | Dashboard</title>
@@ -119,15 +119,15 @@ const Dashboard = () => {
                         {classes?.map((item, index) => (
 
                             <button
-                                disabled={item.state === 'break' || item.course.slice(10, 12) !== teacherCode}
+                                disabled={item.state === 'break' || item.course.slice(8, 10) !== teacherCode}
                                 key={index}
                                 onClick={() => openModal(item._id)}
                                 className={`
                                 ${classBackgroundColor(item)}
-                                ${item.course.slice(10, 12) === teacherCode ? 'border-green-400 cursor-pointer' : 'border-transparent cursor-not-allowed'} 
+                                ${item.course.slice(8, 10) === teacherCode ? 'border-green-400 cursor-pointer' : 'border-transparent cursor-not-allowed'} 
                                 border-2 bg-gray-100 p-2 rounded-md text-center text-base`}>
-                                {/* {item.course.slice(0, 10)} */}
-                                {item.course}
+                                {item.course.slice(0, 10)}
+                                {/* {item.course} */}
                             </button>
                         ))}
                     </div>

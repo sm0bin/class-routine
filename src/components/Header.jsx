@@ -79,7 +79,7 @@ const Header = () => {
                                     <label className="btn btn-ghost btn-circle drawer-button" htmlFor="my-drawer-4" >
                                         <div className="indicator">
                                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
-                                            <span className="badge badge-xs w-4 h-4 badge-primary indicator-item">8</span>
+                                            {/* <span className="badge badge-xs w-4 h-4 badge-error indicator-item">8</span> */}
                                             {/* <span className="badge badge-sm indicator-item">8</span> */}
                                         </div>
                                     </label>
@@ -93,12 +93,27 @@ const Header = () => {
                                         </div>
                                     </button>
                                     <div className="divider border"></div>
-                                    <div className="avatar">
+
+                                    {
+                                        user?.photoURL ?
+                                            <div className="avatar">
+                                                <div className="w-12 rounded-full">
+                                                    <img src={user?.photoURL} />
+                                                </div>
+                                            </div>
+                                            :
+                                            <div className="avatar placeholder">
+                                                <div className="bg-neutral text-neutral-content rounded-full w-12">
+                                                    <span>SY</span>
+                                                </div>
+                                            </div>
+                                    }
+                                    {/* <div className="avatar">
                                         <div className="w-12 rounded-full">
                                             <img src={user?.photoURL} />
                                         </div>
-                                    </div>
-                                    <h3 className="font-semibold text-xl">{user?.displayName}</h3>
+                                    </div> */}
+                                    {user && <h3 className="font-semibold text-xl">{user?.displayName}</h3>}
                                     {/* <button onClick={logout} className="btn btn-neutral">Logout</button> */}
                                 </div>
                                 :

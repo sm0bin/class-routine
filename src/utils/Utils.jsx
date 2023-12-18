@@ -17,7 +17,7 @@ const classBackgroundColor = (item) => {
         case 'active':
             switch (item.day) {
                 case moment().format("ddd"):
-                    return 'bg-yellow-50';
+                    return 'bg-cyan-100';
                 case moment().add(1, 'day').format("ddd"):
                     return 'bg-green-100';
                 default:
@@ -37,7 +37,7 @@ const classBackgroundColor = (item) => {
 const dayBatchBackgroundColor = (day) => {
     switch (day) {
         case moment().format("ddd"):
-            return 'bg-yellow-50';
+            return 'bg-cyan-100';
         case moment().add(1, 'day').format("ddd"):
             return 'bg-green-100';
         default:
