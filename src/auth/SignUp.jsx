@@ -15,7 +15,7 @@ const SignUp = () => {
             .then(res => {
                 console.log(res.user);
                 toast.success('Sign Up Successful!');
-                navigate("/dashboard");
+                navigate("/");
 
             })
             .catch(error =>
@@ -28,7 +28,7 @@ const SignUp = () => {
             .then(res => {
                 console.log(res.user);
                 toast.success('Sign In Successful!');
-                navigate("/dashboard");
+                navigate("/");
             })
             .catch(error =>
                 toast.error(error.message)
