@@ -3,11 +3,20 @@ import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { toast } from "react-hot-toast";
 import useLoadData from "../hooks/useLoadData";
+import useAxiosPublic from "../hooks/useAxiosPublic";
 
 const Dashboard = () => {
     // const [classes, setClasses] = useState([]);
+    const axiosPublic = useAxiosPublic();
     const [selectedClass, setSelectedClass] = useState({});
     const [classes, isPendingClasses, refetchClasses] = useLoadData('/classes', 'classes');
+    const state = [
+        { id: 1, name: 'active' },
+        { id: 2, name: 'pending' },
+        { id: 3, name: 'canceled' },
+        // { id: 4, name: 'break' },
+    ]
+
 
     const stateColor = (state) => {
         if (state === 'active') {
@@ -21,10 +30,16 @@ const Dashboard = () => {
         }
     }
 
-    const openModal = (id) => {
-        document.getElementById('classModal1').showModal();
+    const openModal = async (id) => {
         // console.log(id);
-        setSelectedClass(id);
+        const res = await axiosPublic(`/classes/${id}`);
+        if (res.data) {
+            document.getElementById('classModal1').showModal();
+            setSelectedClass(res.data);
+            console.log(selectedClass);
+
+        }
+        // setSelectedClass(id);
     }
 
 
@@ -39,7 +54,7 @@ const Dashboard = () => {
         // const room = form.room.value;
 
         // console.log(state, time, room);
-        axios.put(`${import.meta.env.VITE_API_URL}/classes/${selectedClass}`, {
+        axios.put(`${import.meta.env.VITE_API_URL}/classes/${selectedClass?._id}`, {
             state: form.state.value,
         }).then(res => {
             console.log(res.data)
@@ -72,7 +87,7 @@ const Dashboard = () => {
 
 
 
-    console.log(classes);
+    // console.log(classes);
 
     const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu'];
     const batches = ['1st Odd', '1st Even', '2nd Even', '3rd Odd', '4th Odd'];
@@ -113,9 +128,9 @@ const Dashboard = () => {
 
                     <div className="grid grid-cols-7 grid-rows-[24] gap-2 col-span-7">
                         {classes?.map((item, index) => (
-                            <div key={index} onClick={() => openModal(item._id)} className={`${stateColor(item.state)} bg-indigo-100 p-2 rounded-md text-center text-base cursor-pointer`}>
+                            <button disabled={item.state === 'break'} key={index} onClick={() => openModal(item._id)} className={`${stateColor(item.state)} bg-indigo-100 p-2 rounded-md text-center text-base cursor-pointer`}>
                                 {item.course.slice(0, 8) + ' ' + item.course.slice(10, 12)}
-                            </div>
+                            </button>
                         ))}
                     </div>
 
@@ -149,43 +164,18 @@ const Dashboard = () => {
                             <label className="label">
                                 <span className="label-text">Change Class State</span>
                             </label>
-                            {/* <input type="email" placeholder="email" className="input input-bordered" required /> */}
                             <select name="state" className="select select-bordered w-full">
-                                <option disabled selected>Change Class State</option>
+                                {/* <option disabled selected>Change Class State</option>
                                 <option value='active' selected>Will Happen</option>
                                 <option value='pending'>Pending</option>
-                                <option value='canceled'>Cancel</option>
+                                <option value='canceled'>Cancel</option> */}
+                                {
+                                    state.map((item, index) => (
+                                        <option key={index} value={item.name} selected={selectedClass.state === item.name}>{item.name}</option>
+                                    ))
+                                }
                             </select>
                         </div>
-                        {/* <div className="form-control">
-                            <label className="label">
-                                <span className="label-text">Available Class Slots</span>
-                            </label>
-                            <select name="time" className="select select-bordered w-full">
-                                <option disabled selected>Class State</option> 
-                                <option selected disabled>Change Class Time</option>
-                                <option value="09:05 - 10:00">09:05 - 10:00</option>
-                                <option value="10:05 - 11:00">10:05 - 11:00</option>
-                                <option value="11:05 - 12:00">11:05 - 12:00</option>
-                                <option value="12:05 - 01:00">12:05 - 01:00</option>
-                                <option value="01:05 - 02:00">01:05 - 02:00</option>
-                                <option value="02:05 - 03:00">02:05 - 03:00</option>
-                                <option value="03:05 - 04:00">03:05 - 04:00</option>
-                            </select>
-                        </div> */}
-                        {/* <div className="form-control">
-                            <label className="label">
-                                <span className="label-text">Room No</span>
-                            </label>
-                            <select name='room' className="select select-bordered w-full">
-                                <option disabled selected>Change Room</option>
-                                <option selected disabled>Will Happen</option>
-                                <option value="427">427</option>
-                                <option value="433">433</option>
-                                <option value="220">220</option>
-
-                            </select>
-                        </div> */}
                         <div className="form-control mt-6">
                             <button className="btn btn-neutral">Update</button>
                         </div>
