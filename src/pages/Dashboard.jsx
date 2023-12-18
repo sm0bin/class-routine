@@ -1,11 +1,13 @@
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { toast } from "react-hot-toast";
+import useLoadData from "../hooks/useLoadData";
 
 const Dashboard = () => {
-    const [classes, setClasses] = useState([]);
+    // const [classes, setClasses] = useState([]);
     const [selectedClass, setSelectedClass] = useState({});
+    const [classes, isPendingClasses, refetchClasses] = useLoadData('/classes', 'classes');
 
     const stateColor = (state) => {
         if (state === 'active') {
@@ -42,21 +44,33 @@ const Dashboard = () => {
         }).then(res => {
             console.log(res.data)
             toast.success('Class Updated Successfully');
+            refetchClasses();
         })
             .catch(err => console.log(err))
 
         // alert('Class Updated Successfully');
     }
 
-    useEffect(() => {
-        const fetchClasses = async () => {
-            const response = await fetch(`${import.meta.env.VITE_API_URL}/classes`);
-            // const response = await fetch('data2.json');
-            const data = await response.json();
-            setClasses(data);
-        }
-        fetchClasses();
-    }, []);
+    // useEffect(() => {
+    //     const fetchClasses = async () => {
+    //         const response = await fetch(`${import.meta.env.VITE_API_URL}/classes`);
+    //         // const response = await fetch('data2.json');
+    //         const data = await response.json();
+    //         setClasses(data);
+    //     }
+    //     fetchClasses();
+    // }, []);
+
+    if (isPendingClasses) {
+        return (
+            <div className="w-screen h-screen flex justify-center items-center">
+                {/* <progress className="progress w-56"></progress> */}
+                <span className="loading loading-ball loading-lg"></span>
+            </div>
+        )
+    }
+
+
 
     console.log(classes);
 
@@ -76,13 +90,13 @@ const Dashboard = () => {
                 <div className="grid grid-cols-9 grid-rows-[25] gap-2 mb-2 min-w-max">
 
                     {
-                        headlines.map((headline, index) => (
+                        headlines?.map((headline, index) => (
                             <div key={index} className="bg-indigo-100 p-2 rounded-md text-center font-bold text-base">{headline}</div>
                         ))
                     }
 
                     <div className="grid grid-cols-2 gap-2 col-span-2">
-                        {days.map((day) => (
+                        {days?.map((day) => (
                             <>
                                 <div className="bg-indigo-100 p-2 rounded-md text-center font-semibold text-lg flex items-center justify-center">{day}</div>
 
@@ -98,7 +112,7 @@ const Dashboard = () => {
                     </div>
 
                     <div className="grid grid-cols-7 grid-rows-[24] gap-2 col-span-7">
-                        {classes.map((item, index) => (
+                        {classes?.map((item, index) => (
                             <div key={index} onClick={() => openModal(item._id)} className={`${stateColor(item.state)} bg-indigo-100 p-2 rounded-md text-center text-base cursor-pointer`}>
                                 {item.course.slice(0, 8) + ' ' + item.course.slice(10, 12)}
                             </div>
